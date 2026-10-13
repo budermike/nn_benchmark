@@ -1,33 +1,15 @@
 # Optimizer Visualization
 
 ## Description
-This project is about benschmarking three implementations of a small Neural Network. It tries to illustrate if an implementation in numpy, pytorch or C is faster. Further it wants to answer the following question: ...
+This project is about benchmarking an implementations of a MLP on CPU and GPU. It wants to answer the following hypothesis: A native CUDA MLP implementation will be slower than the CPU version for small batch sizes or narrow networks due to memory and launch overheads. The GPU achieves a significant speedup only beyond a specific problem-size threshold (the crossover point), as the computational intensity outweighs the transfer overhead from that point onward. The question is now, at which point does the crossingpoint between CPU computation and GPU overhead occur? 
 
 ## Installation Instructions
 
 <!-- How to set up the project. -->
 
-1. Set up a Python environment and activate it:
-
-```bash
-   python -m venv .venv
-   source .venv/bin/activate
-```
-
-2. Install the project along with its dependencies:
-
-```bash
-   pip install -e .
-```
-
 ## Usage
 
 <!-- Examples of how to use the project. -->
-
-```bash
-python3 ./...
-```
-
 
 ## Data
 
@@ -45,7 +27,6 @@ python3 ./...
 
 ## Methodology
 
-nothing done yet.
 
 ## License
 

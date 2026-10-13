@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": false,
-      "cwd": "/home/mbuder/Projects/python/optimizer_visual",
-      "program": "/home/mbuder/Projects/python/optimizer_visual/build/Debug/outDebug",
+      "cwd": "/home/mbuder/Projects/nn_benchmark",
+      "program": "/home/mbuder/Projects/nn_benchmark/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
