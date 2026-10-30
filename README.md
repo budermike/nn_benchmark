@@ -1,4 +1,4 @@
-# Optimizer Visualization
+# MLP Benchmark CPU vs. GPU
 
 ## Description
 This project is about benchmarking an implementations of a MLP on CPU and GPU. It wants to answer the following hypothesis: A native CUDA MLP implementation will be slower than the CPU version for small batch sizes or narrow networks due to memory and launch overheads. The GPU achieves a significant speedup only beyond a specific problem-size threshold (the crossover point), as the computational intensity outweighs the transfer overhead from that point onward. The question is now, at which point does the crossingpoint between CPU computation and GPU overhead occur? 
