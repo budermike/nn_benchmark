@@ -1,3 +1,6 @@
+// Matrix Types
+// This script includes all kinds off matrices needed for a NN (struct, zeros, ones, random, save, load, etc)
+
 #include <vector>
 #include <random>
 #include <iostream>
